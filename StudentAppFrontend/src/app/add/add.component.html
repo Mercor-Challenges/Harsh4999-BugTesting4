@@ -1,0 +1,12 @@
+<form class="example-container" #addForm="ngForm" (ngSubmit)="this.addStud(addForm)">
+    <mat-form-field appearance="fill">
+        <label for="">Name</label>
+        <input matInput type="text" name="name" ngModel>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+       <label for="">Std</label>
+        <input matInput type="number" name="std" ngModel>
+    </mat-form-field>
+    <button type="submit">Submit</button>
+  </form>
+  

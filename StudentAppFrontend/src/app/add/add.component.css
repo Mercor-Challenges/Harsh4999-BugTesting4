@@ -1,0 +1,13 @@
+.example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+
+mat-form-field {
+    margin-right: 5%;
+    padding: auto;
+}
+button{
+    position: absolute;
+    margin-top: 20px;
+}

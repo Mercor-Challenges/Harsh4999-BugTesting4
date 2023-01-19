@@ -1,0 +1,18 @@
+<form class="example-container" #addForm="ngForm" (ngSubmit)="this.updateStud(addForm)">
+        <mat-form-field appearance="legacy">
+          <label for="">Id</label>
+          <input matInput name="id" placeholder="{{this.stud._id}}" readonly='true' ngModel>
+        </mat-form-field>
+        <mat-form-field appearance="standard">
+          <label for="">Name</label>
+          <input matInput name="name" placeholder="{{this.stud.name}}" ngModel>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <label for="">Std</label>
+          <input matInput name="std" placeholder='{{this.stud.std}}' ngModel>
+        </mat-form-field>
+ 
+      
+    <button type="submit">Update</button>
+  </form>
+  
